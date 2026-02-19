@@ -1,0 +1,506 @@
+{
+  "03f766ba15ae1f2f": "Introducción a la generación de sitios estáticos | GT",
+  "0c88a53f3bee41ce": "Un blog que muestra cómo generateStaticParams prerenderiza cada página en cada configuración regional en tiempo de compilación.",
+  "0ed2532922f040a7": {
+    "c": [
+      {
+        "c": "Cómo funciona",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": [
+          {
+            "c": [
+              "Este sitio usa ",
+              {
+                "c": "generateStaticParams",
+                "i": 5,
+                "t": "code"
+              },
+              " para enumerar cada combinación de configuración regional y slug de página en el momento de la compilación. Next.js luego pre-renderiza cada combinación en un archivo HTML estático."
+            ],
+            "i": 4,
+            "t": "p"
+          },
+          {
+            "c": "Las traducciones se generan de antemano con el GT CLI y se empaquetan como archivos JSON. En el momento de la compilación, cada configuración regional carga sus traducciones y renderiza HTML completamente traducido. El resultado es un sitio donde cada página en cada idioma es un archivo estático, listo para ser servido al instante desde un CDN.",
+            "i": 6,
+            "t": "p"
+          },
+          {
+            "c": [
+              "Combinado con ",
+              {
+                "c": "generateMetadata",
+                "i": 8,
+                "t": "code"
+              },
+              ", cada ruta de configuración regional también obtiene títulos de página, descripciones y etiquetas Open Graph traducidos para un SEO multilingüe óptimo."
+            ],
+            "i": 7,
+            "t": "p"
+          }
+        ],
+        "i": 3,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "18f5d4f09916e038": {
+    "c": [
+      {
+        "c": "Beneficios SEO de la internacionalización estática",
+        "i": 2,
+        "t": "h4"
+      },
+      {
+        "c": "Los metadatos traducidos, las URLs específicas por idioma y el HTML pre-renderizado le dan a los motores de búsqueda exactamente lo que necesitan.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "2a6879c81c6f8d60": [
+    {
+      "c": {
+        "i": 2,
+        "t": "path"
+      },
+      "i": 1,
+      "t": "svg"
+    },
+    "Volver a todas las publicaciones"
+  ],
+  "356c788de1a0488d": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": [
+              {
+                "c": "2026-02-15",
+                "i": 4,
+                "t": "span"
+              },
+              {
+                "c": "|",
+                "i": 5,
+                "t": "span"
+              },
+              {
+                "c": "Alex Chen",
+                "i": 6,
+                "t": "span"
+              },
+              {
+                "c": "|",
+                "i": 7,
+                "t": "span"
+              },
+              {
+                "c": "5 min de lectura",
+                "i": 8,
+                "t": "span"
+              }
+            ],
+            "i": 3,
+            "t": "div"
+          },
+          {
+            "c": "Primeros pasos con la generación de sitios estáticos",
+            "i": 9,
+            "t": "h1"
+          },
+          {
+            "c": "Aprende cómo la generación de sitios estáticos pre-renderiza las páginas en tiempo de compilación para obtener el máximo rendimiento y beneficios de SEO.",
+            "i": 10,
+            "t": "p"
+          }
+        ],
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": "La generación de sitios estáticos es un enfoque potente para construir aplicaciones web. Al pre-renderizar las páginas en tiempo de compilación, tu sitio carga de forma instantánea para cada visitante, independientemente de su ubicación o las capacidades de su dispositivo.",
+            "i": 12,
+            "t": "p"
+          },
+          {
+            "c": "Cuando combinas SSG con internacionalización, cada idioma obtiene su propio conjunto de archivos HTML pre-renderizados. Esto significa que un visitante en Tokio ve la versión en japonés de tu sitio con la misma rapidez que alguien en Nueva York ve la versión en inglés. Sin sobrecarga de traducción en tiempo de ejecución, sin indicadores de carga, sin desplazamiento de diseño.",
+            "i": 13,
+            "t": "p"
+          },
+          {
+            "c": "La clave para que esto funcione en Next.js es la función generateStaticParams. Al devolver todas las combinaciones de parámetros de idioma y página, le indicas al proceso de compilación que cree un archivo HTML estático para cada permutación. El resultado es un sitio completamente estático y completamente traducido que puede servirse desde un nodo perimetral de CDN en cualquier parte del mundo.",
+            "i": 14,
+            "t": "p"
+          }
+        ],
+        "i": 11,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "article"
+  },
+  "3af1c5ccf4126b8d": {
+    "c": [
+      {
+        "c": "Generación de sitios estáticos",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": "Cada página de este sitio se pre-renderiza en tiempo de compilación para cada idioma compatible mediante generateStaticParams. Sin recuperación de traducciones en tiempo de ejecución, sin estados de carga -- solo HTML completamente traducido servido al instante desde el edge.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "5251506683381868": "Los metadatos traducidos, las URL específicas por configuración regional y el HTML prerenderizado les proporcionan a los motores de búsqueda exactamente lo que necesitan.",
+  "53c5e838d9587893": "Beneficios de SEO de la internacionalización estática | GT",
+  "607f33f79470c562": "Generación de sitios estáticos | GT",
+  "80c4447fd74b2f2f": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": [
+              {
+                "c": "2026-02-12",
+                "i": 4,
+                "t": "span"
+              },
+              {
+                "c": "|",
+                "i": 5,
+                "t": "span"
+              },
+              {
+                "c": "Maria Santos",
+                "i": 6,
+                "t": "span"
+              },
+              {
+                "c": "|",
+                "i": 7,
+                "t": "span"
+              },
+              {
+                "c": "4 min de lectura",
+                "i": 8,
+                "t": "span"
+              }
+            ],
+            "i": 3,
+            "t": "div"
+          },
+          {
+            "c": "Por qué deberías pre-renderizar cada configuración regional",
+            "i": 9,
+            "t": "h1"
+          },
+          {
+            "c": "Pre-renderizar las traducciones en tiempo de compilación elimina la sobrecarga en tiempo de ejecución y ofrece cargas de página instantáneas en todos los idiomas.",
+            "i": 10,
+            "t": "p"
+          }
+        ],
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": "La mayoría de las soluciones de internacionalización obtienen las traducciones en tiempo de ejecución. El navegador carga la página, solicita un archivo JSON con las cadenas traducidas y luego renderiza el contenido. Esto provoca un destello de contenido sin traducir, añade solicitudes de red y ralentiza el tiempo de carga percibido.",
+            "i": 12,
+            "t": "p"
+          },
+          {
+            "c": "Pre-renderizar cada configuración regional en tiempo de compilación resuelve todos estos problemas. Cada idioma obtiene su propio HTML completo, listo para servirse de inmediato. No hay recuperación de datos en el cliente, ni retraso de hidratación para las traducciones, ni desplazamiento de diseño cuando las cadenas llegan tarde.",
+            "i": 13,
+            "t": "p"
+          },
+          {
+            "c": "Este enfoque también mejora significativamente el SEO. Los rastreadores de motores de búsqueda ven HTML completamente traducido y renderizado en cada ruta de configuración regional. El contenido en español se encuentra en /es, el contenido en japonés en /ja, y cada versión es una página de primer nivel con sus propios metadatos, títulos y descripciones.",
+            "i": 14,
+            "t": "p"
+          }
+        ],
+        "i": 11,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "article"
+  },
+  "847cb728a82e3175": "Por qué deberías prerenderizar cada configuración regional | GT",
+  "8bb0853e8d4d9e6d": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": "2026-02-08",
+            "i": 3,
+            "t": "span"
+          },
+          {
+            "c": "|",
+            "i": 4,
+            "t": "span"
+          },
+          {
+            "c": "James Park",
+            "i": 5,
+            "t": "span"
+          },
+          {
+            "c": "|",
+            "i": 6,
+            "t": "span"
+          },
+          {
+            "c": "6 min de lectura",
+            "i": 7,
+            "t": "span"
+          }
+        ],
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": "Beneficios SEO de la internacionalización estática",
+        "i": 8,
+        "t": "h3"
+      },
+      {
+        "c": "Los metadatos traducidos, las URLs específicas por idioma y el HTML prerenderizado proporcionan a los motores de búsqueda exactamente lo que necesitan.",
+        "i": 9,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "article"
+  },
+  "b192829e586ef295": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": [
+              {
+                "c": "2026-02-08",
+                "i": 4,
+                "t": "span"
+              },
+              {
+                "c": "|",
+                "i": 5,
+                "t": "span"
+              },
+              {
+                "c": "James Park",
+                "i": 6,
+                "t": "span"
+              },
+              {
+                "c": "|",
+                "i": 7,
+                "t": "span"
+              },
+              {
+                "c": "6 min de lectura",
+                "i": 8,
+                "t": "span"
+              }
+            ],
+            "i": 3,
+            "t": "div"
+          },
+          {
+            "c": "Beneficios de SEO de la internacionalización estática",
+            "i": 9,
+            "t": "h1"
+          },
+          {
+            "c": "Los metadatos traducidos, las URLs específicas por idioma y el HTML prerenderizado le dan a los motores de búsqueda exactamente lo que necesitan.",
+            "i": 10,
+            "t": "p"
+          }
+        ],
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": "Los motores de búsqueda tratan cada ruta de idioma como una página independiente. Cuando prerenderizas /en/blog/my-post y /es/blog/my-post con contenido y metadatos traducidos, estás creando páginas distintas e indexables para cada idioma. Esto es exactamente lo que los motores de búsqueda quieren ver.",
+            "i": 12,
+            "t": "p"
+          },
+          {
+            "c": "La función generateMetadata en Next.js te permite definir títulos, descripciones y etiquetas Open Graph traducidos para cada idioma. Combinado con generateStaticParams, esto significa que cada página en cada idioma tiene sus propios metadatos traducidos y únicos integrados en el HTML en el momento de la compilación.",
+            "i": 13,
+            "t": "p"
+          },
+          {
+            "c": "Los beneficios de rendimiento potencian la ventaja de SEO. Las páginas estáticas prerenderizadas cargan más rápido, lo que mejora las puntuaciones de Core Web Vitals. Las páginas más rápidas tienen mejor posicionamiento. Las páginas traducidas llegan a más usuarios. Más usuarios generan más señales de interacción. Es un ciclo virtuoso que comienza con la decisión de prerenderizar cada idioma.",
+            "i": 14,
+            "t": "p"
+          }
+        ],
+        "i": 11,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "article"
+  },
+  "b8e28f32c7480fff": "Pre-renderizar las traducciones en tiempo de compilación elimina la carga en tiempo de ejecución y proporciona cargas de página instantáneas en todos los idiomas.",
+  "c4c6ef0b87c090bf": {
+    "c": "Más publicaciones",
+    "i": 1,
+    "t": "h3"
+  },
+  "c500bb3426851e26": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": "2026-02-15",
+            "i": 3,
+            "t": "span"
+          },
+          {
+            "c": "|",
+            "i": 4,
+            "t": "span"
+          },
+          {
+            "c": "Alex Chen",
+            "i": 5,
+            "t": "span"
+          },
+          {
+            "c": "|",
+            "i": 6,
+            "t": "span"
+          },
+          {
+            "c": "5 min de lectura",
+            "i": 7,
+            "t": "span"
+          }
+        ],
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": "Primeros pasos con la generación de sitios estáticos",
+        "i": 8,
+        "t": "h3"
+      },
+      {
+        "c": "Aprende cómo la generación de sitios estáticos pre-renderiza las páginas en el momento de la compilación para obtener el máximo rendimiento y beneficios de SEO.",
+        "i": 9,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "article"
+  },
+  "d744a912e9dc03ea": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": "2026-02-12",
+            "i": 3,
+            "t": "span"
+          },
+          {
+            "c": "|",
+            "i": 4,
+            "t": "span"
+          },
+          {
+            "c": "Maria Santos",
+            "i": 5,
+            "t": "span"
+          },
+          {
+            "c": "|",
+            "i": 6,
+            "t": "span"
+          },
+          {
+            "c": "4 min de lectura",
+            "i": 7,
+            "t": "span"
+          }
+        ],
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": "Por qué deberías pre-renderizar cada configuración regional",
+        "i": 8,
+        "t": "h3"
+      },
+      {
+        "c": "Pre-renderizar las traducciones en tiempo de compilación elimina la sobrecarga en tiempo de ejecución y ofrece cargas de página instantáneas en todos los idiomas.",
+        "i": 9,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "article"
+  },
+  "d8ba80224d09e8eb": "Descubre cómo la generación de sitios estáticos prerenderiza las páginas en tiempo de compilación para maximizar el rendimiento y los beneficios de SEO.",
+  "e6bb91f17e790a6c": {
+    "c": [
+      {
+        "c": "Introducción a la generación de sitios estáticos",
+        "i": 2,
+        "t": "h4"
+      },
+      {
+        "c": "Aprende cómo la generación de sitios estáticos pre-renderiza páginas en tiempo de compilación para obtener el máximo rendimiento y beneficios de SEO.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "ef3727575476b54d": {
+    "c": [
+      {
+        "c": "Por Qué Deberías Pre-Renderizar Cada Configuración Regional",
+        "i": 2,
+        "t": "h4"
+      },
+      {
+        "c": "Pre-renderizar las traducciones en tiempo de compilación elimina la sobrecarga en tiempo de ejecución y ofrece cargas de página instantáneas en todos los idiomas.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "f561ea1007aa6757": {
+    "c": "Generación de Sitios Estáticos",
+    "i": 1,
+    "t": "a"
+  }
+}

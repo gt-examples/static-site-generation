@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import { GTProvider } from "gt-next";
+import { getGT } from "gt-next/server";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -8,11 +9,46 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Static Site Generation | GT",
-  description:
-    "A blog-style site demonstrating generateStaticParams to pre-render every page in every locale at build time.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const gt = await getGT();
+
+  const title = gt("Static Site Generation | General Translation");
+  const description = gt(
+    "A blog-style site demonstrating generateStaticParams to pre-render every page in every locale at build time."
+  );
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      locale,
+      type: "website",
+      siteName: "General Translation",
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
+    alternates: {
+      canonical: "https://static-site-generation.generaltranslation.dev",
+      languages: {
+        en: "/en",
+        es: "/es",
+        fr: "/fr",
+        ja: "/ja",
+        zh: "/zh",
+      },
+    },
+  };
+}
 
 export default async function RootLayout({
   children,

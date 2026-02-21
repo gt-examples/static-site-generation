@@ -1,54 +1,6 @@
 {
-  "03f766ba15ae1f2f": "Bien démarrer avec la génération statique de sites | GT",
-  "0c88a53f3bee41ce": "Un blog qui montre comment generateStaticParams pré-rend chaque page pour chaque langue (locale) au moment du build.",
-  "0ed2532922f040a7": {
-    "c": [
-      {
-        "c": "Comment ça marche",
-        "i": 2,
-        "t": "h2"
-      },
-      {
-        "c": [
-          {
-            "c": [
-              "Ce site utilise ",
-              {
-                "c": "generateStaticParams",
-                "i": 5,
-                "t": "code"
-              },
-              " pour énumérer chaque combinaison de locale et de slug de page au moment de la compilation. Next.js pré-rend ensuite chaque combinaison en un fichier HTML statique."
-            ],
-            "i": 4,
-            "t": "p"
-          },
-          {
-            "c": "Les traductions sont générées en amont avec le GT CLI et regroupées sous forme de fichiers JSON. Au moment de la compilation, chaque locale charge ses traductions et produit un HTML entièrement traduit. Le résultat est un site où chaque page dans chaque langue est un fichier statique, prêt à être servi instantanément depuis un CDN.",
-            "i": 6,
-            "t": "p"
-          },
-          {
-            "c": [
-              "Combiné avec ",
-              {
-                "c": "generateMetadata",
-                "i": 8,
-                "t": "code"
-              },
-              ", chaque chemin de locale bénéficie également de titres de pages, de descriptions et de balises Open Graph traduits pour un référencement multilingue optimal."
-            ],
-            "i": 7,
-            "t": "p"
-          }
-        ],
-        "i": 3,
-        "t": "div"
-      }
-    ],
-    "i": 1,
-    "t": "div"
-  },
+  "03f766ba15ae1f2f": "Premiers pas avec la génération statique de sites | GT",
+  "0c88a53f3bee41ce": "Un blog qui illustre comment generateStaticParams pré‑rend chaque page, pour chaque langue, au moment de la compilation.",
   "18f5d4f09916e038": {
     "c": [
       {
@@ -117,7 +69,7 @@
             "t": "h1"
           },
           {
-            "c": "Découvrez comment la génération de sites statiques pré-rend les pages au moment de la compilation pour des performances optimales et de meilleurs résultats SEO.",
+            "c": "Découvrez comment la génération de sites statiques pré-rend les pages au moment du build pour des performances maximales et de meilleurs résultats SEO.",
             "i": 10,
             "t": "p"
           }
@@ -128,17 +80,17 @@
       {
         "c": [
           {
-            "c": "La génération de sites statiques est une approche puissante pour créer des applications web. En pré-rendant les pages au moment de la compilation, votre site se charge instantanément pour chaque visiteur, quelle que soit sa localisation ou les capacités de son appareil.",
+            "c": "La génération de sites statiques est une approche puissante pour créer des applications web. En pré-rendant les pages au moment du build, votre site se charge instantanément pour chaque visiteur, quelle que soit sa localisation ou les capacités de son appareil.",
             "i": 12,
             "t": "p"
           },
           {
-            "c": "Lorsque vous combinez la GSS avec l'internationalisation, chaque locale dispose de son propre ensemble de fichiers HTML pré-rendus. Cela signifie qu'un visiteur à Tokyo voit la version japonaise de votre site aussi rapidement qu'un visiteur à New York voit la version anglaise. Aucune surcharge de traduction à l'exécution, aucun indicateur de chargement, aucun décalage de mise en page.",
+            "c": "Lorsque vous combinez la SSG avec l'internationalisation, chaque locale dispose de son propre ensemble de fichiers HTML pré-rendus. Cela signifie qu'un visiteur à Tokyo voit la version japonaise de votre site aussi rapidement qu'un visiteur à New York voit la version anglaise. Aucune surcharge de traduction à l'exécution, aucun indicateur de chargement, aucun décalage de mise en page.",
             "i": 13,
             "t": "p"
           },
           {
-            "c": "La clé pour que cela fonctionne dans Next.js est la fonction generateStaticParams. En retournant toutes les combinaisons de paramètres de locale et de page, vous demandez au processus de compilation de créer un fichier HTML statique pour chaque permutation. Le résultat est un site entièrement statique et entièrement traduit, pouvant être servi depuis un nœud CDN en périphérie, n'importe où dans le monde.",
+            "c": "La clé pour que cela fonctionne dans Next.js est la fonction generateStaticParams. En retournant toutes les combinaisons de paramètres de locale et de page, vous demandez au processus de build de créer un fichier HTML statique pour chaque permutation. Le résultat est un site entièrement statique et entièrement traduit, pouvant être servi depuis un nœud CDN en périphérie, n'importe où dans le monde.",
             "i": 14,
             "t": "p"
           }
@@ -158,7 +110,7 @@
         "t": "h2"
       },
       {
-        "c": "Chaque page de ce site est pré-rendue au moment du build pour chaque locale prise en charge via generateStaticParams. Aucune récupération de traduction à l'exécution, aucun état de chargement — juste du HTML entièrement traduit, servi instantanément depuis l'edge.",
+        "c": "Chaque page de ce site est pré-rendue au moment du build pour chaque locale prise en charge via generateStaticParams. Aucune récupération de traduction à l'exécution, aucun état de chargement -- juste du HTML entièrement traduit, servi instantanément depuis l'edge.",
         "i": 3,
         "t": "p"
       }
@@ -166,8 +118,9 @@
     "i": 1,
     "t": "div"
   },
-  "5251506683381868": "Des métadonnées traduites, des URL spécifiques à chaque langue et du HTML pré-rendu fournissent aux moteurs de recherche exactement ce dont ils ont besoin.",
-  "53c5e838d9587893": "Avantages SEO de l’internationalisation statique | GT",
+  "5251506683381868": "Les métadonnées traduites, les URLs propres à chaque langue et le HTML pré-rendu offrent aux moteurs de recherche exactement les informations dont ils ont besoin.",
+  "53c5e838d9587893": "Les avantages SEO de l’internationalisation statique | GT",
+  "57807d0226219d6b": "Un site type blog qui montre comment generateStaticParams pré‑rend chaque page dans chaque langue au moment de la compilation.",
   "607f33f79470c562": "Génération statique de sites | GT",
   "80c4447fd74b2f2f": {
     "c": [
@@ -231,7 +184,7 @@
             "t": "p"
           },
           {
-            "c": "Cette approche améliore également le référencement de manière significative. Les robots des moteurs de recherche voient un HTML entièrement traduit et rendu à chaque chemin de locale. Votre contenu en espagnol se trouve à /es, votre contenu en japonais à /ja, et chaque version est une page à part entière avec ses propres métadonnées, titres et descriptions.",
+            "c": "Cette approche améliore également le référencement de manière significative. Les robots des moteurs de recherche voient un HTML entièrement traduit et entièrement rendu à chaque chemin de locale. Votre contenu en espagnol se trouve à /es, votre contenu en japonais à /ja, et chaque version est une page à part entière avec ses propres métadonnées, titres et descriptions.",
             "i": 14,
             "t": "p"
           }
@@ -243,7 +196,7 @@
     "i": 1,
     "t": "article"
   },
-  "847cb728a82e3175": "Pourquoi vous devriez pré-rendre chaque langue (locale) | GT",
+  "847cb728a82e3175": "Pourquoi pré-rendre chaque locale | GT",
   "8bb0853e8d4d9e6d": {
     "c": [
       {
@@ -343,12 +296,12 @@
       {
         "c": [
           {
-            "c": "Les moteurs de recherche traitent chaque chemin de paramètre régional comme une page distincte. Lorsque vous pré-rendez /en/blog/my-post et /es/blog/my-post avec du contenu et des métadonnées traduits, vous créez en réalité des pages indexables distinctes pour chaque langue. C'est exactement ce que les moteurs de recherche souhaitent voir.",
+            "c": "Les moteurs de recherche traitent chaque chemin de paramètre régional comme une page distincte. Lorsque vous pré-rendez /en/blog/my-post et /es/blog/my-post avec du contenu et des métadonnées traduits, vous créez en réalité des pages distinctes et indexables pour chaque langue. C'est exactement ce que les moteurs de recherche souhaitent voir.",
             "i": 12,
             "t": "p"
           },
           {
-            "c": "La fonction generateMetadata dans Next.js vous permet de définir des titres, des descriptions et des balises Open Graph traduits pour chaque paramètre régional. Combinée à generateStaticParams, cela signifie que chaque page dans chaque langue possède ses propres métadonnées traduites uniques, intégrées dans le HTML au moment de la compilation.",
+            "c": "La fonction generateMetadata dans Next.js vous permet de définir des titres, des descriptions et des balises Open Graph traduits pour chaque paramètre régional. Combiné à generateStaticParams, cela signifie que chaque page dans chaque langue possède ses propres métadonnées traduites uniques, intégrées dans le HTML au moment de la compilation.",
             "i": 13,
             "t": "p"
           },
@@ -365,7 +318,20 @@
     "i": 1,
     "t": "article"
   },
-  "b8e28f32c7480fff": "Le pré-rendu des traductions au moment de la compilation élimine la surcharge à l’exécution et assure un chargement instantané des pages dans toutes les langues.",
+  "b8b0657052ffff35": {
+    "c": [
+      "Voici un exemple d'application créée avec ",
+      {
+        "c": "General Translation",
+        "i": 2,
+        "t": "a"
+      },
+      " pour illustrer la génération de sites statiques avec i18n. Il ne s'agit pas d'un vrai blog."
+    ],
+    "i": 1,
+    "t": "p"
+  },
+  "b8e28f32c7480fff": "Le pré-rendu des traductions au moment du build élimine la surcharge à l’exécution et permet un chargement instantané des pages pour chaque langue.",
   "c4c6ef0b87c090bf": {
     "c": "Plus d'articles",
     "i": 1,
@@ -410,7 +376,7 @@
         "t": "h3"
       },
       {
-        "c": "Découvrez comment la génération de sites statiques effectue le rendu des pages au moment de la compilation pour des performances optimales et de meilleurs résultats SEO.",
+        "c": "Découvrez comment la génération de sites statiques pré-rend les pages au moment de la compilation pour des performances optimales et de meilleurs résultats SEO.",
         "i": 9,
         "t": "p"
       }
@@ -457,7 +423,7 @@
         "t": "h3"
       },
       {
-        "c": "Le pré-rendu des traductions au moment de la compilation élimine la surcharge à l'exécution et garantit des chargements de page instantanés dans toutes les langues.",
+        "c": "Le pré-rendu des traductions au moment de la compilation élimine la surcharge à l'exécution et garantit un chargement instantané des pages dans toutes les langues.",
         "i": 9,
         "t": "p"
       }
@@ -465,7 +431,7 @@
     "i": 1,
     "t": "article"
   },
-  "d8ba80224d09e8eb": "Découvrez comment la génération statique pré-rend les pages au moment du build pour des performances maximales et un meilleur SEO.",
+  "d8ba80224d09e8eb": "Découvrez comment la génération statique de sites pré‑rend les pages à la compilation pour des performances optimales et un meilleur référencement (SEO).",
   "e6bb91f17e790a6c": {
     "c": [
       {
@@ -498,6 +464,81 @@
     "i": 1,
     "t": "div"
   },
+  "efb0490d798b8139": {
+    "c": [
+      {
+        "c": "Comment ça marche",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": [
+          {
+            "c": [
+              "Ce site utilise ",
+              {
+                "c": "generateStaticParams",
+                "i": 5,
+                "t": "code"
+              },
+              " pour énumérer chaque combinaison de locale et de slug de page au moment de la compilation. ",
+              {
+                "c": "Next.js",
+                "i": 6,
+                "t": "a"
+              },
+              " pré-rend ensuite chaque combinaison dans un fichier HTML statique."
+            ],
+            "i": 4,
+            "t": "p"
+          },
+          {
+            "c": [
+              "Les traductions sont générées en amont avec le ",
+              {
+                "c": "GT CLI",
+                "i": 8,
+                "t": "a"
+              },
+              " et intégrées sous forme de fichiers JSON. Au moment de la compilation, chaque locale charge ses traductions et produit un HTML entièrement traduit. Le résultat est un site où chaque page dans chaque langue est un fichier statique, prêt à être servi instantanément depuis un CDN."
+            ],
+            "i": 7,
+            "t": "p"
+          },
+          {
+            "c": [
+              "Combiné avec ",
+              {
+                "c": "generateMetadata",
+                "i": 10,
+                "t": "code"
+              },
+              ", chaque chemin de locale bénéficie également de titres de pages, de descriptions et de balises ",
+              {
+                "c": "Open Graph",
+                "i": 11,
+                "t": "a"
+              },
+              " traduits pour un ",
+              {
+                "c": "référencement multilingue",
+                "i": 12,
+                "t": "a"
+              },
+              " optimal."
+            ],
+            "i": 9,
+            "t": "p"
+          }
+        ],
+        "i": 3,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "f0946cc139c458d3": "Génération statique de sites | Traduction générale",
   "f561ea1007aa6757": {
     "c": "Génération de site statique",
     "i": 1,

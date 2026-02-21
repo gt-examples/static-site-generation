@@ -131,12 +131,14 @@ export default async function Home() {
                   generateStaticParams
                 </code>{" "}
                 to enumerate every combination of locale and page slug at build
-                time. Next.js then pre-renders each combination into a static
-                HTML file.
+                time.{" "}
+                <a href="https://nextjs.org/docs/app/building-your-application/data-fetching/incremental-static-regeneration" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline">Next.js</a>{" "}
+                then pre-renders each combination into a static HTML file.
               </p>
               <p>
-                Translations are generated ahead of time with the GT CLI and
-                bundled as JSON files. At build time, each locale loads its
+                Translations are generated ahead of time with the{" "}
+                <a href="https://generaltranslation.com/en-US/docs/cli/translate" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline">GT CLI</a>{" "}
+                and bundled as JSON files. At build time, each locale loads its
                 translations and renders fully translated HTML. The result is a
                 site where every page in every language is a static file, ready
                 to be served instantly from a CDN.
@@ -147,7 +149,10 @@ export default async function Home() {
                   generateMetadata
                 </code>
                 , each locale path also gets translated page titles,
-                descriptions, and Open Graph tags for optimal multilingual SEO.
+                descriptions, and{" "}
+                <a href="https://ogp.me" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline">Open Graph</a>{" "}
+                tags for optimal{" "}
+                <a href="https://generaltranslation.com/en-US/blog/multilingual-nextjs-seo" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline">multilingual SEO</a>.
               </p>
             </div>
           </div>

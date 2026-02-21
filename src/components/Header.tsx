@@ -1,8 +1,33 @@
 import { T } from "gt-next";
 import { LocaleSelector } from "gt-next";
 
+function Disclaimer() {
+  return (
+    <div className="bg-neutral-900 border-b border-neutral-800">
+      <div className="max-w-3xl mx-auto px-6 py-2">
+        <T>
+          <p className="text-xs text-neutral-500 text-center">
+            This is an example app built with{" "}
+            <a
+              href="https://generaltranslation.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-neutral-400 underline hover:text-neutral-300"
+            >
+              General Translation
+            </a>{" "}
+            to demonstrate static site generation with i18n. Not a real blog.
+          </p>
+        </T>
+      </div>
+    </div>
+  );
+}
+
 export default function Header() {
   return (
+    <>
+    <Disclaimer />
     <header className="border-b border-neutral-800 bg-neutral-950">
       <div className="max-w-3xl mx-auto px-6 py-5 flex items-center justify-between">
         <div className="flex items-center gap-3">
@@ -45,5 +70,6 @@ export default function Header() {
         </div>
       </div>
     </header>
+    </>
   );
 }
